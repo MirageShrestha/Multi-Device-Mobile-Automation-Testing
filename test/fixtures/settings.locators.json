@@ -1,0 +1,7 @@
+{
+  "about_emulated_device": "android=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains(\"About emulated\"))",
+  "about_phone": "android=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains(\"About phone\"))",
+  "android_version_label": "android=new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Android version\"))",
+  "emulator_android_version_value": "//*[@text=\"Android version\"]/following-sibling::*[1]",
+  "real_device_android_version_value": "//*[@text=\"Android version\"]/ancestor::android.widget.LinearLayout[1]//*[@resource-id=\"com.android.settings:id/text_right\"]"
+}

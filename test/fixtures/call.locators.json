@@ -1,0 +1,26 @@
+{
+  "keypad_locators": [
+    "android=new UiSelector().descriptionContains(\"key pad\")",
+    "android=new UiSelector().descriptionContains(\"Keypad\")",
+    "android=new UiSelector().descriptionContains(\"Dialpad\")",
+    "android=new UiSelector().descriptionContains(\"dialpad\")",
+    "android=new UiSelector().textContains(\"Keypad\")",
+    "android=new UiSelector().textContains(\"keypad\")"
+  ],
+  "call_button_locators": [
+    "android=new UiSelector().descriptionContains(\"Call\")",
+    "android=new UiSelector().descriptionContains(\"call\")",
+    "android=new UiSelector().descriptionContains(\"dial\")",
+    "android=new UiSelector().resourceIdMatches(\".*dialpad_floating_action_button.*\")",
+    "android=new UiSelector().resourceIdMatches(\".*floating_action_button.*\")",
+    "//android.widget.ImageButton[contains(@content-desc,\"Call\")]",
+    "//android.widget.ImageButton[contains(@content-desc,\"call\")]"
+  ],
+  "number_field_locators": [
+    "android=new UiSelector().resourceIdMatches(\".*digits.*\")",
+    "android=new UiSelector().resourceIdMatches(\".*input.*\")",
+    "android=new UiSelector().resourceIdMatches(\".*digit_field.*\")",
+    "android=new UiSelector().resourceIdMatches(\".*phone_number.*\")",
+    "android=new UiSelector().className(\"android.widget.EditText\")"
+  ]
+}
