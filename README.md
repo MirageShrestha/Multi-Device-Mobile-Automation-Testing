@@ -157,7 +157,3 @@ QA Automation Engineer
 Appium | WebdriverIO | Mobile Testing
 
 ---
-
-```
-
-```
